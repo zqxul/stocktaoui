@@ -1,0 +1,204 @@
+.GroupPanel {
+    display: flex;
+    flex-flow: column;
+    flex: 6;
+    /* margin: 0 10px; */
+    max-width: 120px;
+}
+
+.price-lasted {
+    flex: 3;
+}
+
+.price-rise-fall {
+    flex: 3;
+}
+
+.price-lasted, .price-rise-fall {
+    font-size: xx-small;
+    user-select: none;
+    text-align: left;
+}
+
+.price-sort, .percent-sort {
+    padding: 3px 15px 3px 0px;
+    flex: 1;
+}
+
+.price-header, .percent-header {
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.GroupOptions {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    top: 0%;
+    border: 1px solid;
+    border-top: hidden;
+    max-height: 120px;
+    overflow: hidden auto;
+}
+
+.GroupOption {
+    user-select: none;
+    border-bottom: hidden;
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    /* text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: menulist;
+    box-sizing: border-box;
+    white-space: pre;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    font: 400 13.3333px Arial;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial; */
+}
+
+.SelectOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 7;
+}
+
+.OptionTool {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.OptionName {
+    flex: 5;
+    padding: 1px 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: x-small;
+}
+
+.PullDown {
+    flex: 2;
+}
+
+.GroupAdd, .GroupRefresh {
+    flex: 1;
+    padding: 3px 1px;
+}
+
+.GroupItem {
+    display: flex;
+    align-items: center;
+    margin: 1px 0px;
+}
+
+.GroupItem:hover {
+    background-color: darkgray;
+}
+
+.GroupTool {
+    display: flex;
+    flex: 6;
+    align-items: center;
+}
+
+.GroupName {
+    flex: 6;
+    font-size: xx-small;
+    text-align: left;
+    padding: 4px 0px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 60px;
+    user-select: none;
+    font-size: xx-small;
+}
+
+.GroupSort {
+    flex: 1;
+    padding: 3px 0px;
+}
+
+.GroupEdit, .GroupConfirm {
+    flex: 2;
+    padding: 4px 0px;
+}
+
+.GroupEdit svg {
+    padding: 3px 0px;
+}
+
+.GroupDel, .GroupCancel {
+    flex: 2;
+    padding: 3px 2px 3px 0px;
+}
+
+.GroupDel svg {
+    padding: 2px 0px;
+}
+
+.GroupAddPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.GroupAddForm {
+    display: flex;
+    flex: 12;
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupAddForm input {
+    width: 100%;
+}
+
+.NewGroupName {
+    flex: 6;
+}
+
+.GroupDefault {
+    flex: 4;
+    font-size: xx-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+}
+
+.GroupDefault input[type='checkbox'] {
+    width: fit-content;
+}
+
+.GroupDefault-box {
+    flex: 3;
+}
+
+.GroupDefaultLabel {
+    flex: 7;
+    padding-left: 2px;
+}
+
+.GroupAddTool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2
+}
